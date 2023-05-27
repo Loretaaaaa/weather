@@ -10,6 +10,37 @@
     <title>City Temperature</title>
 </head>
 <body>
+    <section class="App">
+        <div>
+            <div class="form">
+                <input type="text" placeholder="City" id="input">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <p id="errorMessage"></p>
+
+        <ul class="informationList">
+            <li>
+                <span id="city"></span>
+                <span><i class="fa fa-map-marker"></i></span>
+                <span>City</span>
+            </li>
+
+            <li>
+                <span id="country"></span>
+                <span><img src="" id="CountryID" alt=""></span>
+                <span>Country</span>
+            </li>
+
+            <li>
+                <img src="" alt="" id="temIcon">
+                <span id="temp"></span>
+                <span><i class="fa fa-thermometer-empty"></i></span>
+                <span>Temperature</span>
+            </li>
+        </ul>    
+        
+        </div>
+    </section>
     <script src="./script/index.js"></script>
 </body>
 </html>
