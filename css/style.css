@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.App {
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-color: #dedcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App > div {
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+}
+.App .form {
+    width: 100%;
+    background-color: rgb(233, 153, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:  10px;
+    padding: 20px 0px;
+}
+.App .form input {
+    background: none;
+    border: none;
+    background-color: #fff;
+    width: 350px;
+    padding: 10px 0px 10px 3px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+}
+.App .form input::placeholder {
+    color: rgba(159, 160, 159, 0.81);
+    font-size: 20px;
+}
+.App .form button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+}
